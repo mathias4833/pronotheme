@@ -1,0 +1,38 @@
+html, body {
+    width: min-content;
+    background-color: #eeeeee;
+}
+
+.pronotheme {
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: max-content;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 200ms, color 200ms;
+}
+
+.darkPronote {
+    background-color: #262626;
+    color: #eeeeee;
+}
+
+.lightPronote {
+    background-color: #eeeeee;
+    color: #262626;
+    box-shadow: 1px 1px 12px #cacaca;
+}
+
+
+.slide-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.numberslide {
+    margin-left: 5px;
+    width: 30px;
+    text-align: center;
+}

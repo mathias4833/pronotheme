@@ -1,0 +1,35 @@
+:root {
+    --filter-invert: 90%;
+    --filter-saturate: 200%;
+    --filter-rotate: 180deg;
+}
+
+body {
+    filter: invert(var(--filter-invert)) saturate(var(--filter-saturate)) hue-rotate(var(--filter-rotate));
+}
+
+body :nth-child(1n+0) {
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+
+img, .Image_Logo_PronoteBarreHaut, [class^="Image"], [class*=" Image"],
+.EmploiDuTemps_Element, .ObjetBandeauPied, .Image_FormatArch,
+.Image_FormatImg, .Image_FormatInconnu, .Image_FormatPDF, .Image_FormatSon,
+.Image_FormatTexte, .Image_FormatVideo, .Image_FormatExcel, .Image_FormatPPT,
+.Image_FormatGGB, .icon_envoyer, .icon_papillon_notif, .objetBandeauEntete_sep_boutons {
+    filter: invert(var(--filter-invert)) hue-rotate(var(--filter-rotate));
+}
+
+.objetbandeauentete_global .objetBandeauEntete_menu:not(.ongletLudique) {
+    background-color: white;
+}
+
+.ObjetBandeauEspace .ibe_iconebtn:hover > i, .ObjetBandeauEspace .ibe_iconebtn:focus > i {
+    color: black;
+    opacity: 60%;
+}
+
+.widget header .cta-conteneur .as-button:hover.bt-widget, .widget header .cta-conteneur .as-button:hover.bt-refresh {
+    color: white;
+}
