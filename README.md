@@ -5,7 +5,7 @@ Pronotheme is a plugin for firefox that allow to use a dark mode in Pronote webs
 
 ## How to use it ?
 
-the plugin is downloadable at https://addons.mozilla.org/fr/firefox/addon/pronotheme. You can try this this even without a Pronote account, just follow this link https://demo.index-education.net/pronote/eleve.html and click in Pronotheme icon on the top right of the screen.
+the plugin is downloadable at https://addons.mozilla.org/fr/firefox/addon/pronotheme. You can try it even without a Pronote account, just follow this link https://demo.index-education.net/pronote/eleve.html and click in Pronotheme icon on the top right of the screen.
 
 ## Edit this plugin
 
